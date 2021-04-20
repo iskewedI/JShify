@@ -152,12 +152,32 @@ a {
 }
 
 .list--tick .list__item {
-  padding-left: 0.5rem;
   margin-bottom: 1rem;
+  padding-left: 0.5rem;
 }
 
 @media screen and (min-width: 1024px) {
   .list--tick .list__item {
     padding-left: 0;
   }
+}
+
+/* --------------  Icons --------------  */
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.icon--primary > g {
+  fill: var(--color-primary);
+}
+
+.icon-container {
+  align-items: center;
+  background: #f3f9fa;
+  border-radius: 100%;
+  display: inline-flex;
+  height: 64px;
+  justify-content: center;
+  width: 64px;
 }
