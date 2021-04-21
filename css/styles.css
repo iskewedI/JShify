@@ -17,6 +17,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
 /* --------------  Typography --------------  */
 
 html {
@@ -558,6 +563,7 @@ a {
 }
 
 /* --------------  Collapsibles --------------  */
+
 .collapsible__header {
   display: flex;
   justify-content: space-between;
@@ -589,4 +595,39 @@ a {
 .collapsible--expanded .collapsible__content {
   max-height: 100vh;
   opacity: 1;
+}
+
+/* --------------  Blocks --------------  */
+.block {
+  --padding-vertical: 5rem;
+  padding: var(--padding-vertical) 2rem;
+}
+
+.block__heading {
+  margin-top: 0;
+}
+
+.block--dark {
+  background-color: #000;
+  color: #7b858b;
+}
+
+.block--dark .block__heading {
+  color: #fff;
+}
+
+.block--skewed-right {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+  /* If we use an absoulte value, we need to remember to update this value each time we update the vertical padding in .block elements. That's why we use variables */
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+}
+
+.block--skewed-left {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+}
+
+.block__header {
+  text-align: center;
+  margin-bottom: 4rem;
 }
