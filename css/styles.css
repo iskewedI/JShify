@@ -398,6 +398,7 @@ a {
 }
 
 /* --------------  Quotes --------------  */
+
 .quote {
   color: var(--color-body-darker);
   font-size: 3rem;
@@ -446,5 +447,22 @@ a {
 
   .quote__company {
     font-size: 1.6rem;
+  }
+}
+
+/* --------------  Grids --------------  */
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1028px) {
+  .grid--cols-3 {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
