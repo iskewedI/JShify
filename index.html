@@ -23,7 +23,6 @@
     />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -32,7 +31,9 @@
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/svg/logo.svg" alt="" /></a>
+        <a aria-label="JShify" class="nav__brand" href="/"
+          ><img src="images/svg/logo.svg" alt=""
+        /></a>
         <svg
           class="icon icon--white nav__toggler"
           height="512"
@@ -83,7 +84,12 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, commodi?</p>
       </header>
       <div class="input-group">
-        <input type="text" class="input" placeholder="Enter domain name here..." />
+        <input
+          aria-label="Domain"
+          type="text"
+          class="input"
+          placeholder="Enter domain name here..."
+        />
         <button class="btn btn--accent">
           <svg
             class="icon icon--white"

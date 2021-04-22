@@ -6,3 +6,4 @@
 - Creating a "components" structure to improve the visibility of every component in the project.
 - Media objects => Image with Title and Description on the right.
 - Code validated with HTML and CSS validators.
+- Measured the Site's Performance with web.dev

@@ -1,0 +1,23 @@
+{
+  "name": "jshify",
+  "version": "1.0.0",
+  "description": "- Identify the components (Modular CSS).\r - Creating a Color Palette and CSS variables to follow it.\r - Getting and defining Typography.\r - Creating a \"components\" structure to improve the visibility of every component in the project.\r - Media objects => Image with Title and Description on the right.\r - Code validated with HTML and CSS validators.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskewedI/JShify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iskewedI/JShify/issues"
+  },
+  "homepage": "https://github.com/iskewedI/JShify#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
