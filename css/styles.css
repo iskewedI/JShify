@@ -791,3 +791,30 @@ a {
   max-width: 500px;
   margin: 0 auto;
 }
+
+/* --------------  Features --------------  */
+
+.feature {
+  gap: 4rem 2rem;
+  margin: 12rem 0;
+}
+
+.feature__heading {
+  margin: 1rem 0;
+}
+
+.feature__image {
+  width: 100%;
+}
+
+.feature:first-of-type {
+  margin-top: 6rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* We target the feature__content of all EVEN features */
+  .feature:nth-last-of-type(even) .feature__content {
+    /* Change the order of rendered elements */
+    order: 2;
+  }
+}
