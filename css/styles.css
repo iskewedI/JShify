@@ -483,7 +483,7 @@ a {
 }
 
 .quote__author {
-  font-style: 3rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 500;
   margin-bottom: 0;
@@ -858,7 +858,7 @@ a {
 
 .footer a {
   color: #777;
-  transform: color 0.3s;
+  transition: color 0.3s;
 }
 
 .footer a:hover {
